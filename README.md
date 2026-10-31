@@ -24,6 +24,8 @@ The source logo supplied for the project was not modified; optimized derivatives
 
 ## GitHub Pages setup
 
+Before activating GitHub Pages, the owner should review and confirm all page copy and confirm that `hello@simplyit.cc` is the intended contact address. The repository does not provision or verify that mailbox.
+
 1. Open the repository on GitHub and go to **Settings → Pages**.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
 3. Select the `main` branch and the `/ (root)` folder, then save.

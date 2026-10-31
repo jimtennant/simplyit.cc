@@ -52,8 +52,9 @@ a {
 
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid #f7b955;
-  outline-offset: 4px;
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 7px #003b75;
 }
 
 h1,
@@ -309,7 +310,7 @@ h3 {
   text-underline-offset: 0.25em;
 }
 
-.decision-panel {
+.intro-panel {
   padding: clamp(1.5rem, 4vw, 2.4rem);
   background: var(--white);
   border-top: 5px solid var(--blue);
@@ -317,41 +318,22 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.decision-panel ol {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.decision-panel li {
-  display: grid;
-  grid-template-columns: 2.4rem 1fr;
-  padding-block: 1.25rem;
-  border-top: 1px solid var(--line);
-}
-
-.decision-panel li:first-child {
-  border-top: 0;
-}
-
-.decision-panel li > span {
-  grid-row: 1 / span 2;
-  color: var(--blue-dark);
-  font-size: 0.74rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-}
-
-.decision-panel strong {
+.panel-statement {
+  max-width: 12ch;
+  margin-bottom: 2rem;
   font-family: var(--font-display);
-  font-size: 1.12rem;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
 }
 
-.decision-panel small {
-  margin-top: 0.28rem;
+.panel-note {
+  padding-top: 1.25rem;
+  margin-bottom: 0;
   color: var(--ink-soft);
-  font-size: 0.92rem;
-  line-height: 1.5;
+  border-top: 1px solid var(--line);
+  font-weight: 650;
 }
 
 .split-heading {
@@ -471,7 +453,7 @@ h3 {
 }
 
 .contact .eyebrow {
-  color: #d4eaff;
+  color: #e2f0ff;
 }
 
 .contact-inner {
@@ -649,7 +631,7 @@ h3 {
     justify-content: center;
   }
 
-  .decision-panel {
+  .intro-panel {
     margin-top: 0.5rem;
   }
 
