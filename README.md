@@ -29,7 +29,7 @@ Before activating GitHub Pages, the owner should review and confirm all page cop
 1. Open the repository on GitHub and go to **Settings → Pages**.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
 3. Select the `main` branch and the `/ (root)` folder, then save.
-4. The site currently uses its default `jimtennant.github.io/simplyit.cc` address.
+4. The site is currently available at `https://jimtennant.dev/simplyit.cc/` through the GitHub account's existing Pages domain.
 5. To activate `simplyit.cc` later, configure the domain's DNS records for GitHub Pages, add a `CNAME` file containing `simplyit.cc`, then enable **Enforce HTTPS** after the certificate is available.
 
 No build command or package installation is required.
